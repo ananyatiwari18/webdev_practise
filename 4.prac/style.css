@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.child1{
+    display: grid;
+    height: 70%;
+    width: 40%;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 5px;
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+
+.child2{
+    /* height: 10%;
+    width: 10%; */
+    margin: 5px;
+    /* background-color: bisque; */
+    border: 1px solid black ;
+    background-image: url(https://thefirstyearblog.com/wp-content/uploads/2017/03/Vanilla-Cupcakes-Square-2024.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
